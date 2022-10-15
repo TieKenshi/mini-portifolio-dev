@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+
+    <title>Mini Portifólio </title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">David Mendes da Silva</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim"> 
+                    <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+            
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descrissao">
+                        <p>Oi! Meu nome é David Mendes da Silva, seja bem-vindo(a)!</p>
+
+                        <p>Paragrafo Descritivo oio o i ioi oi io o i on ><span>Httml e java script</span>. 
+                            certo Alex. havia esquecido do restricao das 8064 bytes por linha, mais mesmo assim acho que o varchar (x) on de x = 8000-quantidade de bytes que ja estao alocadas, ou ate mesmo criar uma tabela so para conter os textos em varchar(8000) + um campo chave relacionado, e se caso ele optar pelo text tambem acho melhor criar um filegroup separado e uma tabela so para os textos.
+                        </p>                    
+                    </div>
+                </div>
+                
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://twitter.com/home?lang=pt" target="_blank" class="curriculo">Curriculo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.ahnegao.com.br/" target="_blank" class="Github">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://translate.google.com.br/?hl=pt-BR&tab=wT" target="_blank" class="Linkedin">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+ </main>
+
+ <script src="./src/js/index.js"></script>
+</body>
+</html>
